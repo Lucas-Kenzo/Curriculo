@@ -26,4 +26,22 @@ nav{
     display :flex;
     justify-content: space-around;
     align-items: center;
+    background: black;
+    height: 8vh;
+}
+
+main{
+    background: url("img/bg.jpg") no-repeat center center;
+    background-size: cover;
+    height: 92vh;
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li{
+    letter-spacing: 3px;
+    margin-left: 32px;
 }
