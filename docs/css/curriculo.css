@@ -1,11 +1,11 @@
-*{
+* {
     margin:0;
     padding:0;
 
 }
 
 a{
-    color: #4596;
+    color: #ffff;
     text-decoration: none;
     transition: 0.3s;
 
@@ -26,12 +26,12 @@ nav{
     display :flex;
     justify-content: space-around;
     align-items: center;
-    background: black;
+    background: rgb(34, 34, 34);
     height: 8vh;
 }
 
 main{
-    background: url("/docs/img/bg.jpg") no-repeat center center;
+    background: url("menu.jpg") no-repeat center center;
     background-size: cover;
     height: 92vh;
 }
