@@ -14,3 +14,16 @@ a{
 a:hover{
     opacity: 0.5;
 }
+
+.menu{
+    font-size: 30px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+
+}
+
+nav{
+    display :flex;
+    justify-content: space-around;
+    align-items: center;
+}
