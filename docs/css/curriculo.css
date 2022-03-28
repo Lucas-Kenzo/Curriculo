@@ -15,7 +15,7 @@ body{
 }
 a:hover{
     font-size: 45px;
-    transition: 0.3s;
+    transition: 0.2s;
     color: black;
 }
 
@@ -126,6 +126,7 @@ main{
 img{
     width: 170px;
     height: 170px;
+    border: solid 2px white;
     border-radius: 100%;
 }
 .container{
@@ -138,6 +139,22 @@ img{
     color: #fff;
     font-size: 20px;
 }
+
+.boxIndex{
+    width: 400px;
+    height: 500px;
+    background-color: rgb(5, 3, 12);
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around ;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    font-family: cursive;
+    opacity: 0.9;
+   border: #fff solid 2px;
+}
+
 .box1{
     width: 400px;
     height: 500px;
@@ -150,9 +167,12 @@ img{
     text-align: center;
     font-family: cursive;
     opacity: 0.9;
+   border: #fff solid 2px;
+   border-right: 0.5px;
 }
 .box2{
-    border-left: #fff solid 1px;
+    border: #fff solid 2px;
+    border-left: #fff solid 0.5px;
     width: 400px;
     height: 500px;
     background-color: rgb(5, 3, 12);
@@ -183,7 +203,7 @@ img{
 
     padding: 10px; /* espaçamento */
   
-    font-size: 40px; /* tamanho do icone */
+    font-size: 45px; /* tamanho do icone */
   
     width: 18px;  /* tamanho do fundo */
   
